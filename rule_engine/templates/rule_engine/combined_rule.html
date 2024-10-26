@@ -1,0 +1,6 @@
+{% extends "rule_engine/base.html" %}
+{% block content %}
+    <h2>Combined Rule AST</h2>
+    <pre>{{ combined_ast }}</pre>
+    <a class="btn btn-primary" href="{% url 'home' %}">Back to Home</a>
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "rule_engine/base.html" %}
+{% block content %}
+    <h1>Rule Engine with AST</h1>
+    <a class="btn btn-primary" href="{% url 'create_rule' %}">Create Rule</a>
+    <a class="btn btn-primary" href="{% url 'combine_rules' %}">Combine Rules</a>
+    <a class="btn btn-primary" href="{% url 'evaluate_rule' %}">Evaluate Rule</a>
+{% endblock %}

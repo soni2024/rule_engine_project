@@ -1,0 +1,6 @@
+{% extends "rule_engine/base.html" %}
+{% block content %}
+    <h2>Evaluation Result</h2>
+    <p>Result: {{ result }}</p>
+    <a class="btn btn-primary" href="{% url 'home' %}">Back to Home</a>
+{% endblock %}
